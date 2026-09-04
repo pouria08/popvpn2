@@ -1,7 +1,1 @@
-https://raw.githubusercontent.com/RKPchannel/RKP_bypass_configs/refs/heads/main/whitelist.txt
-https://raw.githubusercontent.com/patterniha/Free-Configs/main/configs.txt
-https://raw.githubusercontent.com/pouria08/popvip/refs/heads/master/Eternity.txt
-https://9dz4quexuuos.javad-ghoreyshi11.workers.dev/feed/pouria2
-https://gitverse.ru/api/repos/flaafix/AetrisVPN_Black_list/raw/branch/master/configs.txt
-https://gitverse.ru/api/repos/flaafix/AetrisVPN/raw/branch/master/AetrisVPN.txt
-
+https://pouria08.github.io/realyrank/working.txt
