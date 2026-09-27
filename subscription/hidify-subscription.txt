@@ -1,0 +1,24 @@
+# Demo Hidify subscription (placeholders)
+# Replace placeholders with real server values before using in production.
+
+vless://550e8400-e29b-41d4-a716-446655440000@hidify.example.com:443?type=ws&security=tls&path=/vless#Hidify%20VLESS
+
+# VMess requires base64-encoded JSON. Example JSON (encode this and put after vmess://):
+# {
+#   "v":"2",
+#   "ps":"Hidify VMess (WS+TLS)",
+#   "add":"hidify.example.com",
+#   "port":"443",
+#   "id":"550e8400-e29b-41d4-a716-446655440001",
+#   "aid":"0",
+#   "net":"ws",
+#   "type":"none",
+#   "host":"hidify.example.com",
+#   "path":"/ws",
+#   "tls":"tls"
+# }
+# After base64-encoding the compact JSON put it like: vmess://BASE64_JSON
+
+ss://YWVzLTI1Ni1nY206Y2hhbmdlbWU=*@hidify.example.com:8388#Hidify%20Shadowsocks
+
+# Note: The ss line above uses a demo base64 of 'aes-256-gcm:changeme' (URL-safe, no padding). Replace password and re-encode for real use.

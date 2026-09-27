@@ -1,0 +1,29 @@
+# مثالِ proxies.yaml برای تولید سابسکریپشنِ Hidify
+# این فایل را کپی کن و نامِ فایل واقعی را templates/proxies.yaml بگذار، سپس مقادیر را پر کن.
+
+- type: vmess
+  name: Example VMess (WS+TLS)
+  address: example.com
+  port: 443
+  uuid: 00000000-0000-0000-0000-000000000000
+  alterId: 0
+  network: ws
+  path: /ws
+  host: example.com
+  tls: true
+
+- type: vless
+  name: Example VLESS (WS+TLS)
+  address: example.com
+  port: 443
+  uuid: 11111111-1111-1111-1111-111111111111
+  network: ws
+  path: /vless
+  tls: true
+
+- type: ss
+  name: Example Shadowsocks
+  address: example.com
+  port: 8388
+  method: aes-256-gcm
+  password: your_password_here
